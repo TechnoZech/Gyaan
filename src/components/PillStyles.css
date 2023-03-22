@@ -1,0 +1,53 @@
+.pill_section{
+    height: 100vh;
+}
+
+.pill_container{
+    margin: 0 10%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 100px;
+}
+
+.pills{
+    text-decoration: none;
+
+}
+
+.pill_warp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #F5315F;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 450px;
+    padding: 50px 55px;
+    
+}
+
+.pill_wrap_2 :hover{
+    background-color: #F5315F;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.pill_name{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+.pill_name :hover{
+    color: #FFFFFF;
+}
+
+
+.pill_help{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+

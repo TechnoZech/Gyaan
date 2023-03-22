@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HomeStyles.css";
 import Girl from "../assets/girl.png";
 import Heart from "../assets/heart.png";
@@ -6,7 +7,8 @@ import Heart from "../assets/heart.png";
 function Home() {
 	return (
 		<section className="home_section">
-        <img src={Heart} alt="heart" className="heart"/>
+		<Link to="/pill" className=""><img src={Heart} alt="heart" className="heart"/> </Link>
+        
 			<div className="home_container">
 				<div className="home_content_div">
 					<h1 className="home_content">

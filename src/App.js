@@ -1,12 +1,20 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import './App.css';
 import Home from "./components/Home";
-import Search from "./components/SearchAndNavigation";
+import Pill from "./components/Pill";
 
 function App() {
   return (
     <>
-      <Home></Home>
-      {/* <Search></Search> */}
+      <Router>
+        <Routes>
+          <Route path="*" element={<Home />} />
+					<Route path="/" element={<Home />} />
+          <Route path="/pill" element={<Pill />} />
+				</Routes>
+      </Router>
     </>
   );
 }

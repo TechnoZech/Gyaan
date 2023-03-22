@@ -1,6 +1,8 @@
 .home_section{
     height: 100vh;
     position: relative;
+    background-color: #252525;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 
 .home_container{

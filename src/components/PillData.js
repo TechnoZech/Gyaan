@@ -2,7 +2,7 @@ const PillData = {
     pills: [
         {
             name: "contraceptive",
-            url: "./home",
+            url: "/article",
             help: "This is help content on hover",
         },
         {
